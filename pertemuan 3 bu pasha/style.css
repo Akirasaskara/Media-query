@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  padding: 10px;
+}
+
+/* Media Query 1 */
+@media screen and (min-width: 350px) {
+  body {
+    background-color: #e6f7ff;
+    font-size: 14px;
+  }
+
+  img {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 20px;
+    color: #333;
+  }
+  p {
+    font-size: 20;
+    color: #333;
+  }
+}
+
+/* Media Query 2*/
+@media screen and (min-width: 576px) {
+  body {
+    background-color: #d9f2d9;
+    font-size: 16px;
+  }
+
+  img {
+    width: 200px;
+  }
+
+  h1 {
+    font-size: 24px;
+    color: rebeccapurple;
+  }
+  p {
+    font-size: 24px;
+    color: rebeccapurple;
+  }
+
+  /* Media Query 3*/
+  @media screen and (min-width: 768px) {
+    body {
+      background-color: #fff2cc;
+      font-size: 18px;
+    }
+
+    img {
+      width: 300px;
+    }
+
+    h1 {
+      font-size: 28px;
+      color: brown;
+    }
+    p {
+      font-size: 28px;
+      color: brown;
+    }
+  }
+
+  /* Media Query 4*/
+  @media screen and (min-width: 992px) {
+    body {
+      background-color: #ffe6e6;
+      font-size: 20px;
+    }
+
+    img {
+      width: 400px;
+    }
+
+    h1 {
+      font-size: 32px;
+      color: coral;
+    }
+    p {
+      font-size: 32px;
+      color: coral;
+    }
+  }
+
+  /* Media Query 5 */
+  @media screen and (min-width: 1200px) {
+    body {
+      background-color: #e6ccff;
+      font-size: 22px;
+    }
+
+    img {
+      width: 500px;
+    }
+
+    h1 {
+      font-size: 36px;
+      color: darkgreen;
+    }
+    p {
+      font-size: 36px;
+      color: darkgreen;
+    }
+  }
+}
